@@ -102,7 +102,7 @@ check = int(input(
     "5 to update student\n"
 ))
 while check<0 or check>5:
-    print("Please Enter between 1 to 4")
+    print("Please Enter between 1 to 5")
     check = int(input(
     "Enter 1 to add student\n"
     "2 to remove student\n"
