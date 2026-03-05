@@ -70,10 +70,6 @@ def update_student(name,marks,id):
     counter = 0
     res = 0
     arr = []
-    record_size = 81
-    # with open("stud_records.txt") as f:
-    #     for line in f:
-    #         print(len(line))
     with open("stud_records.txt", "r+") as f:
         content = f.read()
         num = 0
@@ -103,6 +99,7 @@ check = int(input(
     "2 to remove student\n"
     "3 to show students\n"
     "4 to update student\n"
+    "5 to update student\n"
 ))
 while check<0 or check>5:
     print("Please Enter between 1 to 4")
@@ -110,7 +107,7 @@ while check<0 or check>5:
     "Enter 1 to add student\n"
     "2 to remove student\n"
     "3 to show students\n"
-    "4 to update student\n"))
+    "5 to clear records\n"))
 if check == 1:
     add_student()
 
