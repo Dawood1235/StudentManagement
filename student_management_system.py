@@ -19,9 +19,6 @@ def add_student():
             name = input("Enter the name of student: ")
             while name.isdigit():
                 name = input("Please enter a valid name of student: ")
-            # identity = input("Enter the id of student: ")
-            # while len(identity)!=4:
-            #     identity = input("Please enter a 5 digit id of student: ")
             mark = input("Enter the marks of the student: ")
 
             user = input("Press y to add more students or n to stop: ")
